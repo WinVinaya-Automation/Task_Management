@@ -19,5 +19,5 @@
 
 4. Run the app:
    ```bash
-   flask run
+  python app.py
    ```
