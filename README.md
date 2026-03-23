@@ -20,12 +20,12 @@
 ### Step 2:
 
 - Create a virtual environment inside the backend project directory: 
-  Run the cmd in terminal ==> **python3 -m venv venv**
+  Run the cmd in terminal ==> **python -m venv venv**
 
 ### Step 3:
 
 - Activate the virtual environment:
-  Run the cmd in terminal ==> **source venv/bin/activate**
+  Run the cmd in terminal ==> **.\venv\Scripts\activate**
 
 ### Step 4:
 
