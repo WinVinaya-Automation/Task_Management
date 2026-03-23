@@ -19,7 +19,7 @@ import ProjectDetailPage from "./components/pages/ProjectDetailPage";
 
 function App() {
   return (
-    <Router basename="/tasks-management">
+    <Router basename="/task-management">
       <header className="app-header">
         <Header />
       </header>
