@@ -19,5 +19,5 @@
 
 4. Run the app:
    ```bash
-  python app.py
+   python app.py
    ```
