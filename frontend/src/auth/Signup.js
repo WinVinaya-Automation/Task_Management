@@ -114,7 +114,7 @@ function Signup() {
   //           color: "#003366",
   //         }}
   //       >
-  //         WinVinaya Assets Management
+  //         WinVinaya Tasks Management
   //       </div>
 
   //       {/* Signup Card */}
@@ -294,7 +294,7 @@ function Signup() {
             color: "#003366",
           }}
         >
-          WinVinaya Assets Management
+          WinVinaya Tasks Management
         </div>
 
         {/* Info Message Card */}

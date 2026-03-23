@@ -102,7 +102,7 @@ function Header() {
           <Navbar.Brand href="./dashboard">
             <img
               src={logo}
-              alt="WinVinaya - Asset Manager"
+              alt="WinVinaya - Tasks Manager"
               style={{ height: "40px" }}
             />
           </Navbar.Brand>
@@ -148,104 +148,15 @@ function Header() {
                       Dashboard
                     </NavDropdown.Item>
                     <NavDropdown.Item
-                      href="./assetlist"
-                      style={isActiveRoute("/assetlist") ? activeItemStyle : {}}
+                      href="./project-list"
+                      style={isActiveRoute("/project-list") ? activeItemStyle : {}}
                     >
                       <FaTable
                         style={{ marginRight: "8px", color: "#0052D4" }}
                       />
-                      Asset List
+                      Project List
                     </NavDropdown.Item>
 
-                    {/* More Submenu */}
-                    <NavDropdown
-                      drop="end"
-                      title="More"
-                      id="more-menu"
-                      show={moreOpen}
-                      onToggle={() => {
-                        setMoreOpen(!moreOpen);
-                        setMenuOpen(true);
-                        setUserOpen(false);
-                      }}
-                    >
-                      <NavDropdown.Item
-                        href="./laptop-Conf-list"
-                        style={
-                          isActiveRoute("/laptop-Conf-list")
-                            ? activeItemStyle
-                            : {}
-                        }
-                      >
-                        <FaLaptop
-                          style={{ marginRight: "8px", color: "#0052D4" }}
-                        />
-                        Laptop Conf List
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href="./donor-list"
-                        style={
-                          isActiveRoute("/donor-list") ? activeItemStyle : {}
-                        }
-                      >
-                        <FaHandsHelping
-                          style={{ marginRight: "8px", color: "#0052D4" }}
-                        />
-                        Donor List
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href="./msoffice-details"
-                        style={
-                          isActiveRoute("/msoffice-details")
-                            ? activeItemStyle
-                            : {}
-                        }
-                      >
-                        <FaMicrosoft
-                          style={{ marginRight: "8px", color: "#0052D4" }}
-                        />
-                        MS Office Details
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href="./asset-assigned-details"
-                        style={
-                          isActiveRoute("/asset-assigned-details")
-                            ? activeItemStyle
-                            : {}
-                        }
-                      >
-                        <FaClipboardList
-                          style={{ marginRight: "8px", color: "#0052D4" }}
-                        />
-                        Asset Assigned List
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href="./service-details"
-                        style={
-                          isActiveRoute("/service-details")
-                            ? activeItemStyle
-                            : {}
-                        }
-                      >
-                        <FaTools
-                          style={{ marginRight: "8px", color: "#0052D4" }}
-                        />
-                        Service List
-                      </NavDropdown.Item>
-                      <NavDropdown.Item
-                        href="./wvf-donor-details"
-                        style={
-                          isActiveRoute("/wvf-donor-details")
-                            ? activeItemStyle
-                            : {}
-                        }
-                      >
-                        <FaDonate
-                          style={{ marginRight: "8px", color: "#0052D4" }}
-                        />
-                        WVF Donor List
-                      </NavDropdown.Item>
-                    </NavDropdown>
                   </NavDropdown>
 
                   {/* Live Clock */}
@@ -294,17 +205,6 @@ function Header() {
                         style={{ marginRight: "8px", color: "#003A75" }}
                       />
                       User Management
-                    </NavDropdown.Item>
-                    <NavDropdown.Item
-                      href="./info-details"
-                      style={
-                        isActiveRoute("/info-details") ? activeItemStyle : {}
-                      }
-                    >
-                      <FaInfo
-                        style={{ marginRight: "8px", color: "#003A75" }}
-                      />
-                      Info Details
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="logout">
                       Logout

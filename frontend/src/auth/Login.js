@@ -160,7 +160,7 @@ function Login() {
           color: "#003366",
         }}
       >
-        WinVinaya Assets Management
+        WinVinaya Tasks Management
       </div>
       <Container className="flex-grow-1 d-flex align-items-center justify-content-center">
         <Row style={{ width: "75%" }}>
