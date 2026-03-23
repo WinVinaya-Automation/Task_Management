@@ -15,7 +15,7 @@
 
 - If PostgreSQL is not installed, install it with the default **port: 5432** and **password: 12345**.
 - If you use a different port or password, update the relevant values in the `.env` file.
-- Create a PostgreSQL database named `asset_management` if it doesn’t already exist.
+- Create a PostgreSQL database named `Tasks Management` if it doesn’t already exist.
 
 ### Step 2:
 
