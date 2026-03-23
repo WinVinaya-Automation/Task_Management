@@ -58,5 +58,5 @@ The backend will run by default in **Port:5000**
   The frontend will run by default on **Port:3000**
 
 Once the server is running, you can access the app in your browser.
-The default path to access the Asset Management app is: **http://localhost:3000/asset-management/login**
+The default path to access the Asset Management app is: **http://localhost:3000/task-management/login**
 
